@@ -743,6 +743,16 @@ article .entry-title {
   text-shadow: 1px 1px #eeeeee;
 }
 
+article .entry-title-page {
+  color: #404040;
+  padding-top: 1.2em;
+  padding-bottom: 1.2em;
+  max-width: 720px !important;
+  text-align: center;
+  margin: 0 auto;
+  text-shadow: 1px 1px #eeeeee;
+}
+
 article .regular-width {
   max-width: 720px;
   padding: 20px;

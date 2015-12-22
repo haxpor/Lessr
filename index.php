@@ -208,7 +208,7 @@
 
 					<article class="post">
 					
-						<h1 class="title"><?php the_title() ?></h1>
+						<h1 class="title entry-title-page"><?php the_title() ?></h1>
 						
 						<div class="the-content">
 							<?php the_content(); ?>
