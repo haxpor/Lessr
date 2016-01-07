@@ -544,6 +544,8 @@ header nav ul li a {
   margin-right: 0.10em;
   border: 0.1em solid #fff;
   outline: none;
+  margin-bottom: 0.15em;
+  margin-top: 0.15em;
 }
 .site-subscription button {
   padding: 0.5em;
