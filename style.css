@@ -540,6 +540,10 @@ header nav ul li a {
   padding: 100px 0;
   text-align: center;
 }
+.site-subscription .sub-input-wrapper {
+  display: inline-block;
+  width: -10%;
+}
 .site-subscription input, .site-subscription button {
   -webkit-appearance: none;
   -webkit-box-shadow: none;
@@ -843,5 +847,12 @@ article .title-home-container p {
   }
   article .title a {
     font-size: 30px;
+  }
+}
+
+@media (max-width: 996px) {
+  .site-subscription .sub-input-wrapper {
+    display: block;
+    width: 100%;
   }
 }

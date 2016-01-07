@@ -238,10 +238,19 @@
 	<div class="site-subscription">
 		<h3>Get Notified When A New Post Is Ready - No Spam Ever!</h3>
 		<form class="" action="//wasin.us12.list-manage.com/subscribe/post?u=5fcf9711443c8ed8a6bba7638&amp;id=0e0e4d2848" method="POST" target="_blank">
-			<input type="text" name="FNAME" id="mce-FNAME" placeholder="First name">
-			<input type="text" name="EMAIL" id="mce-EMAIL" placeholder="Email">
+			<div class="sub-input-wrapper">
+				<input type="text" name="FNAME" id="mce-FNAME" placeholder="First name">
+			</div>
+
+			<div class="sub-input-wrapper">
+				<input type="text" name="EMAIL" id="mce-EMAIL" placeholder="Email">
+			</div>
+
 			<input type="hidden" name="ml-submit" value="1">
-			<button>Subscribe</button>
+
+			<div class="sub-input-wrapper">
+				<button>Subscribe</button>
+			</div>
 		</form>
 	</div>
 </div>
