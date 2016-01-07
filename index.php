@@ -234,14 +234,16 @@
 
 	<?php } // end is_page(); ?>
 
-<div class="site-subscription">
-	<h3>Get Notified When A New Post Is Ready - No Spam Ever!</h3>
-	<form class="" action="https://wasin.us12.list-manage2.com/subscribe/post?u=5fcf9711443c8ed8a6bba7638&amp;id=0e0e4d2848" method="POST" target="_blank">
-		<input type="text" name="FNAME" id="mce-FNAME" placeholder="First name">
-		<input type="text" name="EMAIL" id="mce-EMAIL" placeholder="Email">
-		<input type="hidden" name="ml-submit" value="1">
-		<button>Subscribe</button>
-	</form>
+<div class="site-subscription-container">
+	<div class="site-subscription">
+		<h3>Get Notified When A New Post Is Ready - No Spam Ever!</h3>
+		<form class="" action="//wasin.us12.list-manage.com/subscribe/post?u=5fcf9711443c8ed8a6bba7638&amp;id=0e0e4d2848" method="POST" target="_blank">
+			<input type="text" name="FNAME" id="mce-FNAME" placeholder="First name">
+			<input type="text" name="EMAIL" id="mce-EMAIL" placeholder="Email">
+			<input type="hidden" name="ml-submit" value="1">
+			<button>Subscribe</button>
+		</form>
+	</div>
 </div>
 
 <?php

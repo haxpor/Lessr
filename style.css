@@ -529,9 +529,15 @@ header nav ul li a {
   margin: 0 auto;
   position: relative;
 }
-.site-subscription {
-  padding: 100px 0;
+.site-subscription-container {
   background-color: #222222;
+  overflow: hidden;
+  position: relative;
+}
+.site-subscription {
+  display: table;
+  margin: 0 auto;
+  padding: 100px 0;
   text-align: center;
 }
 .site-subscription input, .site-subscription button {
