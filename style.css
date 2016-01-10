@@ -390,12 +390,17 @@ ul {
 ol {
   list-style: decimal;
 }
+li,
 ul ul,
 ol ol,
 ul ol,
 ol ul {
   margin-bottom: 0;
   margin-left: 1.5em;
+  line-height: 2.2em;
+  font-weight: 450;
+  color: #222;
+  font-family: "Arvo", Georgia, serif;
 }
 dt {
   font-weight: bold;
