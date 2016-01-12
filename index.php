@@ -105,7 +105,7 @@
 						</h1>
 					</article>
 
-				<?php $topOffset += 300; ?>
+				<?php $topOffset += 400; ?>
 				<?php endwhile; ?>
 				
 				<!-- pagintation -->
