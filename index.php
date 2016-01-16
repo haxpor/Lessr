@@ -158,7 +158,7 @@
 						<div class="meta regular-width">
 							<div><?php echo the_date(); ?></div></br>
 							<div class="category"><?php echo get_the_category_list(); ?></div>
-							<div class="tags"><?php echo get_the_tag_list( '| &nbsp;', '&nbsp;' ); ?></div>
+							<div class="tags"><?php echo get_the_tag_list( '| &nbsp;', ' ' ); ?></div>
 						</div><!-- Meta -->						
 						
 					</article>
