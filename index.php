@@ -237,21 +237,24 @@
 <div class="site-subscription-container">
 	<div class="site-subscription">
 		<h3>Get Notified When A New Post Is Ready - No Spam Ever!</h3>
-		<form class="" action="//wasin.us12.list-manage.com/subscribe/post?u=5fcf9711443c8ed8a6bba7638&amp;id=0e0e4d2848" method="POST" target="_blank">
+		<!-- Begin MailChimp Signup Form -->
+		<form action="//wasin.us12.list-manage.com/subscribe/post?u=5fcf9711443c8ed8a6bba7638&amp;id=0e0e4d2848" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
 			<div class="sub-input-wrapper">
-				<input type="text" name="FNAME" id="mce-FNAME" placeholder="First name">
+				<input type="text" value="" name="FNAME" class="" id="mce-FNAME" placeholder="First name">
 			</div>
-
 			<div class="sub-input-wrapper">
-				<input type="text" name="EMAIL" id="mce-EMAIL" placeholder="Email">
+				<input type="email" value="" name="EMAIL" id="mce-EMAIL" placeholder="Email">
 			</div>
-
-			<input type="hidden" name="ml-submit" value="1">
-
-			<div class="sub-input-wrapper">
-				<button>Subscribe</button>
-			</div>
+			<div id="mce-responses">
+				<div class="mailchimp-response" id="mce-error-response" style="display:none;"></div>
+				<div class="mailchimp-response" id="mce-success-response" style="display:none;"></div>
+			</div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+		    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_5fcf9711443c8ed8a6bba7638_0e0e4d2848" tabindex="-1" value=""></div>
+		    <div class="sub-input-wrapper">
+            	<button name="subscribe" id="mc-embedded-subscribe">Subscribe</button>
+		    </div>
 		</form>
+		<!--End mc_embed_signup-->
 	</div>
 </div>
 
@@ -270,6 +273,8 @@
 </footer><!-- #colophon .site-footer -->
 
 <?php wp_footer(); ?>
+
+<script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[1]='FNAME';ftypes[1]='text';fnames[0]='EMAIL';ftypes[0]='email';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
 
 </body>
 </html>

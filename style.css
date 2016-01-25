@@ -570,6 +570,7 @@ header nav ul li a {
   display: inline-block;
 }
 .site-subscription button {
+  margin-top: 15px;
   padding: 0.5em;
   font-size: 1.5em;
   border: 0.1em solid #fff;
@@ -835,6 +836,16 @@ article .title-home-container p {
   left: 50%;
   z-index: 33;
   text-shadow: 0 0.05em 0 rgba(0,0,0,0.5);
+}
+
+.mailchimp-response {
+  color: #DDD;
+  font-size: 0.8em;
+  font-family: "Arvo", Georgia, serif;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 /* Media Queries for responsivenessssssss
