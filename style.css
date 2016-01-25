@@ -416,9 +416,11 @@ cite,
 em,
 i {
   font-style: italic;
-}
+} 
 blockquote {
   margin: 0 1.5em;
+  font-size: 1.8em;
+  line-height: 56px;
 }
 address {
   margin: 0 0 1.5em;
