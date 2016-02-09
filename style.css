@@ -630,7 +630,9 @@ article .the-content p {
   color: #787878;
 }
 article .the-content img {
-  width: 100%;
+  max-width: 100%;
+  display: block;
+  margin: auto;
   height: auto;
 }
 article .meta {
