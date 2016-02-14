@@ -1,0 +1,16 @@
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 5px;
+}
+.currency {
+text-align: right;
+}
+.expense {
+    color: red;
+}
+.total {
+    font-weight: bold;
+}
