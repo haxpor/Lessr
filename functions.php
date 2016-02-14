@@ -27,7 +27,7 @@ function lessr_scripts()  {
 
 	// theme styles
 	wp_enqueue_style( 'lessr-style', get_template_directory_uri() . '/style.css', '10000', 'all' );
-	wp_enqueue_style( 'lessor-poststyle', get_template_directory_uri() . '/poststyle.css', '1', 'all' );
+	wp_enqueue_style( 'lessr-poststyle', get_template_directory_uri() . '/poststyle.css', '1', 'all' );
 			
 	// add fitvid
 	wp_enqueue_script( 'lessr-fitvid', get_template_directory_uri() . '/js/jquery.fitvids.js', array( 'jquery' ), LESSR_VERSION, true );

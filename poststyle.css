@@ -14,3 +14,76 @@ text-align: right;
 .total {
     font-weight: bold;
 }
+
+.sclient-section {
+	margin-top: 10px;
+	margin-bottom: 50px;
+}
+.sclient-logo {
+	margin-right: 10px;
+	margin-left: 10px;
+	display: inline-block;
+	max-height: 300px;
+	vertical-align: middle;
+}
+.sclient-clientrow1 {
+	background-color: rgb(211, 211, 211);
+	display: flex;
+	vertical-align: middle;
+	height: 350px;
+	padding-top: 40px;
+	padding-bottom: 20px;
+}
+.sclient-clientrow2 {
+	background-color: rgb(242, 242, 242);
+	display: flex;
+	vertical-align: middle;
+	height: 350px;
+	padding-top: 40px;
+	padding-bottom: 20px;
+}
+.sclient-clientrow-divimage {
+	width: 40%;
+	display: inline-block;
+	vertical-align: middle;
+	position: relative;
+	text-align: center;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+.sclient-clientrow-image {
+	height: auto;
+	position: relative;
+	float: none;
+	margin: 20px auto;
+	box-shadow: 5px 5px 5px #555555;
+}
+.sclient-clientrow-textright {
+	display: inline-block;
+	width: 50%;
+	margin: auto auto;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	overflow: scroll;
+}
+.sclient-clientrow-textleft {
+	display: inline-block;
+	width: 50%;
+	margin: auto auto;
+	margin-left: 40px;
+	margin-right: 10px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	overflow: scroll;
+}
+.sclient-clientrow-textheader {
+	font-weight: bold;
+	font-size: 1.3em;
+	color: black;
+}
+.sclient-clientrow-textdescription {
+	font-size: 0.8em;
+	color: rgb(50, 50, 50);
+}
