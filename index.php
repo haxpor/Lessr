@@ -32,6 +32,15 @@
 
 <body <?php body_class(); ?>>
 
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.5&appId=171457552915556";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
 
 <?php
 	/*-----------------------------------------------------------------------------------*/
@@ -269,6 +278,9 @@
 		<?php do_action( 'break_credits' ); ?>
 		<h3>Connect with Me</h3><br/>
 		<a class="twitter-follow-button" href="https://twitter.com/haxpor" data-size="large" data-show-count="false">Follow @haxpor</a>
+		<a href="https://instagram.com/haxpor"><img src="//badges.instagram.com/static/images/ig-badge-view-24.png" alt="Instagram" style="padding-left: 10px; padding-bottom: 2px"></a></span>
+
+		<span class="fb-follow" data-href="https://www.facebook.com/wasin.thonkaew" data-width="150" data-height="24" data-layout="button" data-show-faces="false" style="position: relative; top: -13px; padding-left: 10px;"></span>
 	</div><!-- .site-info -->
 </footer><!-- #colophon .site-footer -->
 
