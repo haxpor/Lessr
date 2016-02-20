@@ -170,6 +170,7 @@ pre {
   -moz-border-radius: 15px;
   -webkit-border-radius: 15px;
   word-wrap: break-word;
+  margin-bottom: 20px;
 }
 code {
   color: black;
