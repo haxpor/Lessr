@@ -169,6 +169,7 @@ pre {
   border-radius: 15px;
   -moz-border-radius: 15px;
   -webkit-border-radius: 15px;
+  word-wrap: break-word;
 }
 code {
   color: black;
