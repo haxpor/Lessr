@@ -169,7 +169,7 @@ pre {
   border-radius: 15px;
   -moz-border-radius: 15px;
   -webkit-border-radius: 15px;
-  word-wrap: break-word;
+  white-space: pre-wrap;
   margin-bottom: 20px;
 }
 code {
