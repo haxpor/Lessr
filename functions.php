@@ -27,6 +27,7 @@ function lessr_scripts()  {
 
 	// theme styles
 	wp_enqueue_style( 'lessr-style', get_template_directory_uri() . '/style.css', '10000', 'all' );
+	
 	wp_enqueue_style( 'lessr-poststyle', get_template_directory_uri() . '/poststyle.css', '1', 'all' );
 			
 	// add fitvid

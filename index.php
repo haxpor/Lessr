@@ -9,22 +9,6 @@
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-<script>window.twttr = (function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0],
-    t = window.twttr || {};
-  if (d.getElementById(id)) return t;
-  js = d.createElement(s);
-  js.id = id;
-  js.src = "https://platform.twitter.com/widgets.js";
-  fjs.parentNode.insertBefore(js, fjs);
- 
-  t._e = [];
-  t.ready = function(f) {
-    t._e.push(f);
-  };
- 
-  return t;
-}(document, "script", "twitter-wjs"));</script>
 
 <?php wp_head(); ?>
 
@@ -277,10 +261,11 @@
 	<div class="site-info container">
 		<?php do_action( 'break_credits' ); ?>
 		<h3>Connect with Me</h3><br/>
-		<a class="twitter-follow-button" href="https://twitter.com/haxpor" data-size="large" data-show-count="false">Follow @haxpor</a>
-		<a href="https://instagram.com/haxpor"><img src="//badges.instagram.com/static/images/ig-badge-view-24.png" alt="Instagram" style="padding-left: 10px; padding-bottom: 2px"></a></span>
-
-		<span class="fb-follow" data-href="https://www.facebook.com/wasin.thonkaew" data-width="150" data-height="24" data-layout="button" data-show-faces="false" style="position: relative; top: -13px; padding-left: 10px;"></span>
+		<span class="logo-wrapper"><a href="https://twitter.com/haxpor" target="_blank"><img class="social-logo" src="<?php echo get_template_directory_uri()."/res/images/twitter.png"?>"/></a></span>
+		<span class="logo-wrapper"><a href="https://instagram.com/haxpor" target="_blank"><img class="social-logo" src="<?php echo get_template_directory_uri()."/res/images/instagram-2.png"?>"/></a></span>
+		<span class="logo-wrapper"><a href="https://www.facebook.com/wasin.thonkaew" target="_blank"><img class="social-logo" src="<?php echo get_template_directory_uri()."/res/images/facebook.png"?>"/></a></span>
+		<span class="logo-wrapper"><a href="https://github.com/haxpor" target="_blank"><img class="social-logo" src="<?php echo get_template_directory_uri()."/res/images/github-2.png"?>"/></a></span>
+		<span class="logo-wrapper"><a href="https://www.linkedin.com/in/wasinthonkaew" target="_blank"><img class="social-logo" src="<?php echo get_template_directory_uri()."/res/images/linkedin.png"?>"/></a></span>
 	</div><!-- .site-info -->
 </footer><!-- #colophon .site-footer -->
 

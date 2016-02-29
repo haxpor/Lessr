@@ -866,6 +866,18 @@ article .title-home-container p {
   padding-right: 20px;
 }
 
+.site-footer .social-logo
+{
+  -webkit-filter: invert(100%);
+  filter: invert(100%);
+  color: #000;
+}
+.site-footer .logo-wrapper
+{
+  margin-left: 0.6em;
+  margin-right: 0.6em;
+}
+
 /* Media Queries for responsivenessssssss
 -------------------------------------------------------------- */
 @media (max-width: 767px) {
