@@ -11,6 +11,9 @@ text-align: right;
 .expense {
     color: red;
 }
+.income {
+	color: green;
+}
 .total {
     font-weight: bold;
 }
